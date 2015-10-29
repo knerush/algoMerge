@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-//        let inputNumbers = arrayFromContentsOfFileWithName("IntegerArray")
+//        let inputNumbers = arrayFromContentsOfFileWithName("simple")
         let inputNumbers = arrayFromContentsOfFileWithName("IntegerArray")
         
         let numericData = translateToNumbers(inputNumbers!)
